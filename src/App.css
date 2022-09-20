@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h2 {
+  margin-bottom: 248px;
+}
+
+.busca span {
+  font-size: 20px;
+  margin-right: 40px;
+  color: black;
+  font-weight: 500;
+}
+
+.busca input {
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+}
+
+.busca input:focus{
+  outline: none;
+  border:1px solid #f36d10;
+}
+
+.Listaodas {
+  max-width: 1000px;
+  margin-top: 100px;
+}
+
+.Listaodas div {
+  margin-bottom: 50px;
+  border-bottom: 2px solid black;
+}
+
+.Listaodas div h1 {
+  margin-bottom: 15px;
+  color: #f36d10;
+}
+
+.Listaodas div p {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
